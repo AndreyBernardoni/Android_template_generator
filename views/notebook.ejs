@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Termo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .card-register-contact {
+            padding: 15vh 0 0 0;
+            width: 100%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            Android Terms
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="/" class="nav-link">Voltar</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="card-register-contact">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Informações</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <form method="post" action="/generate">
+                                    <div class="form-group">
+                                        <label>Nome do funcionário</label>
+                                        <input type="text" class="form-control" placeholder="Nome" name="name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>ID do computador</label>
+                                        <input type="text" class="form-control" placeholder="ID do Computador" name="machineId">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Turno/Setor</label>
+                                        <input type="text" class="form-control" placeholder="Setor" name="sector">
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="col-12">
+                                            <button class="btn btn-lg btn-secondary btn-block">Gerar</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
